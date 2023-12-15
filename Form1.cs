@@ -21,8 +21,8 @@ namespace kursach
         {
             startpoint += 1;
             myprogress.Value = startpoint;
-            Percentage.Text = "" + startpoint;
-            if (myprogress.Value == 100 )
+            Percentage.Text =  startpoint+"%";
+            if (myprogress.Value == 10 )
             { 
             myprogress.Value = 0;
                 timer1.Stop();
