@@ -21,5 +21,41 @@ namespace kursach
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Car car = new Car();
+            car.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Customers cas = new Customers();
+            cas.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Rental re = new Rental();
+            re.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Car car = new Car();
+            car.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
-}
+    
+}   
+    
+

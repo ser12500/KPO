@@ -111,6 +111,7 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "CAR";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -123,6 +124,7 @@
             this.button2.TabIndex = 11;
             this.button2.Text = "CUSTOMER";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -135,6 +137,7 @@
             this.button3.TabIndex = 12;
             this.button3.Text = "RENTAL";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -147,6 +150,7 @@
             this.button4.TabIndex = 13;
             this.button4.Text = "RETURN";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -159,6 +163,7 @@
             this.button5.TabIndex = 14;
             this.button5.Text = "User";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // panel2
             // 

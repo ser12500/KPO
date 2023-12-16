@@ -84,11 +84,23 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>carDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rental.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rental.Designer.cs">
+      <DependentUpon>Rental.cs</DependentUpon>
     </Compile>
     <Compile Include="Users1.cs">
       <SubType>Form</SubType>
@@ -113,8 +125,14 @@
     <EmbeddedResource Include="Car.resx">
       <DependentUpon>Car.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rental.resx">
+      <DependentUpon>Rental.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Users1.resx">
       <DependentUpon>Users1.cs</DependentUpon>
