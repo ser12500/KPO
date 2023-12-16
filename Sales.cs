@@ -14,9 +14,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace kursach
 {
-    public partial class Rental : Form
+    public partial class Sales : Form
     {
-        public Rental()
+        public Sales()
         {
             InitializeComponent();
         }

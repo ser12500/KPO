@@ -39,7 +39,7 @@ namespace kursach
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Rental re = new Rental();
+            Sales re = new Sales();
             re.Show();
         }
 

@@ -1,6 +1,6 @@
 ﻿namespace kursach
 {
-    partial class Rental
+    partial class Sales
     {
         /// <summary>
         /// Required designer variable.
