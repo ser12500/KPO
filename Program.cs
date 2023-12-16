@@ -17,7 +17,7 @@ namespace kursach
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Users1());
+            Application.Run(new Car());
         }
     }
 }
