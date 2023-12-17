@@ -161,11 +161,12 @@
             // 
             // Id
             // 
-            this.Id.BackColor = System.Drawing.SystemColors.Info;
+            this.Id.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Id.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.Id.Location = new System.Drawing.Point(191, 165);
+            this.Id.Location = new System.Drawing.Point(190, 155);
             this.Id.Name = "Id";
-            this.Id.Size = new System.Drawing.Size(163, 22);
+            this.Id.Size = new System.Drawing.Size(163, 34);
             this.Id.TabIndex = 28;
             // 
             // label7
@@ -183,9 +184,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.Control;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(719, 112);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(242, 54);
@@ -194,28 +195,30 @@
             // 
             // Upass
             // 
-            this.Upass.BackColor = System.Drawing.SystemColors.Info;
-            this.Upass.Location = new System.Drawing.Point(191, 273);
+            this.Upass.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Upass.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Upass.Location = new System.Drawing.Point(190, 263);
             this.Upass.Name = "Upass";
-            this.Upass.Size = new System.Drawing.Size(165, 22);
+            this.Upass.Size = new System.Drawing.Size(165, 34);
             this.Upass.TabIndex = 25;
             // 
             // Uname
             // 
-            this.Uname.BackColor = System.Drawing.SystemColors.Info;
+            this.Uname.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Uname.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Uname.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.Uname.Location = new System.Drawing.Point(191, 222);
+            this.Uname.Location = new System.Drawing.Point(190, 212);
             this.Uname.Name = "Uname";
-            this.Uname.Size = new System.Drawing.Size(163, 22);
+            this.Uname.Size = new System.Drawing.Size(163, 34);
             this.Uname.TabIndex = 24;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(40, 266);
+            this.label4.ForeColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(42, 266);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(128, 29);
             this.label4.TabIndex = 23;
@@ -224,10 +227,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.SystemColors.Control;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(39, 212);
+            this.label6.ForeColor = System.Drawing.Color.Transparent;
+            this.label6.Location = new System.Drawing.Point(41, 212);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(93, 32);
             this.label6.TabIndex = 22;
@@ -291,10 +294,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.SystemColors.Control;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(49, 155);
+            this.label8.ForeColor = System.Drawing.Color.Transparent;
+            this.label8.Location = new System.Drawing.Point(51, 155);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(39, 32);
             this.label8.TabIndex = 16;
