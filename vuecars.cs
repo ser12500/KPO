@@ -18,21 +18,6 @@ namespace kursach
             InitializeComponent();
         }
 
-        private void guna2TrackBar1_ValueChanged(object sender, EventArgs e)
-        {
-
-            label31.Text=guna2TrackBar1.Value.ToString()+ "$";
-        }
-
-        private void guna2TrackBar2_ValueChanged(object sender, EventArgs e)
-        {
-            year.Text=guna2TrackBar2.Value.ToString() ;
-        }
-
-        private void guna2TrackBar3_ValueChanged(object sender, EventArgs e)
-        {
-            km.Text=guna2TrackBar3.Value.ToString()+ "km";
-        }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -73,7 +58,7 @@ namespace kursach
             pictureBox7.Load("cars\\bmv\\1.png");
             pictureBox8.Load("cars\\bmv\\2.png");
             pictureBox9.Load("cars\\bmv\\3.png");
-            label30.Text = label13.Text;
+            label30.Text = label15.Text;
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -82,7 +67,7 @@ namespace kursach
             pictureBox7.Load("cars\\camaro\\1.png");
             pictureBox8.Load("cars\\camaro\\2.png");
             pictureBox9.Load("cars\\camaro\\3.png");
-            label30.Text = label14.Text;
+            label30.Text = label18.Text;
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
@@ -91,7 +76,7 @@ namespace kursach
             pictureBox7.Load("cars\\mers\\1.png");
             pictureBox8.Load("cars\\mers\\2.png");
             pictureBox9.Load("cars\\mers\\3.png");
-            label30.Text = label15.Text;
+            label30.Text = label24.Text;
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
@@ -100,10 +85,67 @@ namespace kursach
             pictureBox7.Load("cars\\bmv1\\1.png");
             pictureBox8.Load("cars\\bmv1\\2.png");
             pictureBox9.Load("cars\\bmv1\\3.png");
-            label30.Text = label16.Text;
+            label30.Text = label21.Text;
         }
 
         private void guna2GradientButton2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainForm main = new MainForm();
+            main.Show();
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            guna2PictureBox1car.Image = pictureBox15.Image;
+         
+            pictureBox8.Load("cars\\1\\2.png");
+            pictureBox9.Load("cars\\1\\3.png");
+            label30.Text = label21.Text;
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            guna2PictureBox1car.Image = pictureBox14.Image;
+            pictureBox7.Load("cars\\2\\1.png");
+            pictureBox9.Load("cars\\2\\3.png");
+            label30.Text = label21.Text;
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            guna2PictureBox1car.Image = pictureBox13.Image;
+            pictureBox7.Load("cars\\3\\1.png");
+            pictureBox9.Load("cars\\3\\3.png");
+            label30.Text = label21.Text;
+
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            guna2PictureBox1car.Image = pictureBox12.Image;
+            pictureBox7.Load("cars\\4\\1.png");
+            pictureBox9.Load("cars\\4\\3.png");
+            label30.Text = label21.Text;
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            guna2PictureBox1car.Image = pictureBox11.Image;
+            pictureBox7.Load("cars\\5\\1.png");
+            pictureBox9.Load("cars\\5\\3.png");
+            label30.Text = label21.Text;
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            guna2PictureBox1car.Image = pictureBox10.Image;
+            pictureBox7.Load("cars\\6\\1.png");
+            pictureBox9.Load("cars\\6\\3.png");
+            label30.Text = label21.Text;
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
             this.Hide();
             MainForm main = new MainForm();
