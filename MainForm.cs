@@ -39,7 +39,7 @@ namespace kursach
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Rental re = new Rental();
+            Sales re = new Sales();
             re.Show();
         }
 
@@ -53,6 +53,13 @@ namespace kursach
         private void button5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            vuecars car = new vuecars();
+            car.Show();
         }
     }
     

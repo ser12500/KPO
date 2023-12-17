@@ -17,7 +17,7 @@ namespace kursach
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Rental());
+            Application.Run(new MainForm());
         }
     }
 }
