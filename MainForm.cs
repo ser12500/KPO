@@ -52,7 +52,9 @@ namespace kursach
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Users1 us = new Users1();
+            us.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
