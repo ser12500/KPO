@@ -97,6 +97,7 @@ namespace kursach
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -119,6 +120,7 @@ namespace kursach
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.guna2Panel1.Controls.Add(this.guna2GradientButton2);
             this.guna2Panel1.Controls.Add(this.guna2TrackBar3);
             this.guna2Panel1.Controls.Add(this.guna2TrackBar2);
             this.guna2Panel1.Controls.Add(this.guna2TrackBar1);
@@ -306,7 +308,7 @@ namespace kursach
             this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(65, 671);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(12, 664);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(180, 45);
             this.guna2GradientButton1.TabIndex = 1;
@@ -898,6 +900,22 @@ namespace kursach
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
+            // guna2GradientButton2
+            // 
+            this.guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton2.Location = new System.Drawing.Point(198, 664);
+            this.guna2GradientButton2.Name = "guna2GradientButton2";
+            this.guna2GradientButton2.Size = new System.Drawing.Size(166, 45);
+            this.guna2GradientButton2.TabIndex = 32;
+            this.guna2GradientButton2.Text = "Назад";
+            this.guna2GradientButton2.Click += new System.EventHandler(this.guna2GradientButton2_Click);
+            // 
             // vuecars
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1020,5 +1038,6 @@ namespace kursach
         private PictureBox pictureBox8;
         private PictureBox pictureBox7;
         private PictureBox pictureBox9;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
     }
 }

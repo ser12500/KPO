@@ -102,5 +102,12 @@ namespace kursach
             pictureBox9.Load("cars\\bmv1\\3.png");
             label30.Text = label16.Text;
         }
+
+        private void guna2GradientButton2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainForm main = new MainForm();
+            main.Show();
+        }
     }
 }

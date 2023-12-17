@@ -54,6 +54,13 @@ namespace kursach
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            vuecars car = new vuecars();
+            car.Show();
+        }
     }
     
 }   
