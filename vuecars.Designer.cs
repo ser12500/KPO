@@ -146,7 +146,7 @@ namespace kursach
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(372, 702);
+            this.guna2Panel1.Size = new System.Drawing.Size(372, 737);
             this.guna2Panel1.TabIndex = 0;
             // 
             // guna2TrackBar3
@@ -208,7 +208,7 @@ namespace kursach
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label31.ForeColor = System.Drawing.Color.Crimson;
             this.label31.Location = new System.Drawing.Point(197, 25);
@@ -306,7 +306,7 @@ namespace kursach
             this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(65, 653);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(65, 671);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(180, 45);
             this.guna2GradientButton1.TabIndex = 1;
@@ -469,6 +469,7 @@ namespace kursach
             // 
             // guna2Panel2
             // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel2.Controls.Add(this.label11);
             this.guna2Panel2.Controls.Add(this.label10);
             this.guna2Panel2.Controls.Add(this.label9);
@@ -491,6 +492,7 @@ namespace kursach
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label10.Location = new System.Drawing.Point(109, 37);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(36, 16);
@@ -500,6 +502,7 @@ namespace kursach
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label9.Location = new System.Drawing.Point(109, 3);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(85, 16);
@@ -530,37 +533,50 @@ namespace kursach
             // guna2ControlBox1
             // 
             this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.Black;
+            this.guna2ControlBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.guna2ControlBox1.BorderColor = System.Drawing.Color.IndianRed;
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.guna2ControlBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.guna2ControlBox1.IconColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2ControlBox1.Location = new System.Drawing.Point(1486, 0);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox1.TabIndex = 21;
             // 
             // guna2ControlBox2
             // 
             this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.guna2ControlBox2.BorderColor = System.Drawing.Color.IndianRed;
             this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
-            this.guna2ControlBox2.FillColor = System.Drawing.Color.White;
-            this.guna2ControlBox2.IconColor = System.Drawing.Color.Black;
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.guna2ControlBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.guna2ControlBox2.IconColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2ControlBox2.Location = new System.Drawing.Point(1444, 0);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2ControlBox2.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox2.TabIndex = 22;
             // 
             // guna2ControlBox3
             // 
             this.guna2ControlBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.guna2ControlBox3.BorderColor = System.Drawing.Color.IndianRed;
             this.guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.guna2ControlBox3.FillColor = System.Drawing.Color.White;
-            this.guna2ControlBox3.IconColor = System.Drawing.Color.Black;
+            this.guna2ControlBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.guna2ControlBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.guna2ControlBox3.IconColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guna2ControlBox3.Location = new System.Drawing.Point(1406, 0);
             this.guna2ControlBox3.Name = "guna2ControlBox3";
+            this.guna2ControlBox3.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2ControlBox3.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox3.TabIndex = 23;
             // 
             // guna2Panel3
             // 
+            this.guna2Panel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel3.Controls.Add(this.label12);
             this.guna2Panel3.Controls.Add(this.label13);
             this.guna2Panel3.Controls.Add(this.label14);
@@ -583,6 +599,7 @@ namespace kursach
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label13.Location = new System.Drawing.Point(109, 37);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(36, 16);
@@ -592,6 +609,7 @@ namespace kursach
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label14.Location = new System.Drawing.Point(109, 3);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(85, 16);
@@ -611,6 +629,7 @@ namespace kursach
             // 
             // guna2Panel4
             // 
+            this.guna2Panel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel4.Controls.Add(this.label15);
             this.guna2Panel4.Controls.Add(this.label16);
             this.guna2Panel4.Controls.Add(this.label17);
@@ -633,6 +652,7 @@ namespace kursach
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label16.Location = new System.Drawing.Point(109, 37);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(36, 16);
@@ -642,6 +662,7 @@ namespace kursach
             // label17
             // 
             this.label17.AutoSize = true;
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label17.Location = new System.Drawing.Point(109, 3);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(104, 16);
@@ -661,6 +682,7 @@ namespace kursach
             // 
             // guna2Panel5
             // 
+            this.guna2Panel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel5.Controls.Add(this.label18);
             this.guna2Panel5.Controls.Add(this.label19);
             this.guna2Panel5.Controls.Add(this.label20);
@@ -683,6 +705,7 @@ namespace kursach
             // label19
             // 
             this.label19.AutoSize = true;
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label19.Location = new System.Drawing.Point(109, 37);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(36, 16);
@@ -692,6 +715,7 @@ namespace kursach
             // label20
             // 
             this.label20.AutoSize = true;
+            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label20.Location = new System.Drawing.Point(109, 3);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(115, 16);
@@ -711,6 +735,7 @@ namespace kursach
             // 
             // guna2Panel7
             // 
+            this.guna2Panel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel7.Controls.Add(this.label24);
             this.guna2Panel7.Controls.Add(this.label25);
             this.guna2Panel7.Controls.Add(this.label26);
@@ -733,6 +758,7 @@ namespace kursach
             // label25
             // 
             this.label25.AutoSize = true;
+            this.label25.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label25.Location = new System.Drawing.Point(109, 37);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(36, 16);
@@ -742,6 +768,7 @@ namespace kursach
             // label26
             // 
             this.label26.AutoSize = true;
+            this.label26.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label26.Location = new System.Drawing.Point(109, 3);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(155, 16);
@@ -762,6 +789,7 @@ namespace kursach
             // label30
             // 
             this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label30.ForeColor = System.Drawing.Color.IndianRed;
             this.label30.Location = new System.Drawing.Point(401, 643);
@@ -783,6 +811,7 @@ namespace kursach
             // 
             // guna2Panel6
             // 
+            this.guna2Panel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel6.Controls.Add(this.label21);
             this.guna2Panel6.Controls.Add(this.label22);
             this.guna2Panel6.Controls.Add(this.label23);
@@ -805,6 +834,7 @@ namespace kursach
             // label22
             // 
             this.label22.AutoSize = true;
+            this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label22.Location = new System.Drawing.Point(109, 37);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(36, 16);
@@ -814,6 +844,7 @@ namespace kursach
             // label23
             // 
             this.label23.AutoSize = true;
+            this.label23.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label23.Location = new System.Drawing.Point(109, 3);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(92, 16);
@@ -833,6 +864,7 @@ namespace kursach
             // 
             // pictureBox7
             // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(420, 25);
             this.pictureBox7.Name = "pictureBox7";
@@ -844,6 +876,7 @@ namespace kursach
             // 
             // pictureBox8
             // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(535, 25);
             this.pictureBox8.Name = "pictureBox8";
@@ -855,6 +888,7 @@ namespace kursach
             // 
             // pictureBox9
             // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(657, 25);
             this.pictureBox9.Name = "pictureBox9";
@@ -870,7 +904,7 @@ namespace kursach
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1530, 702);
+            this.ClientSize = new System.Drawing.Size(1530, 737);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
