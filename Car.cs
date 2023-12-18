@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
-using System.Data.SqlClient;
+
 
 namespace kursach
 {
@@ -20,7 +20,7 @@ namespace kursach
             InitializeComponent();
         }
         SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\kerge\OneDrive\Документы\car.mdf;Integrated Security=True;Connect Timeout=30");
-        private void label2_Click(object sender, EventArgs e)
+        public void label2_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
@@ -35,8 +35,9 @@ namespace kursach
             carsDGV.DataSource = ds.Tables[0];
             Con.Close();
         }
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
+
             if (Regnumc.Text == "" || Brandc.Text == "" || Modelc.Text == "" || Pricec.Text == "" )
             {
 
@@ -62,12 +63,12 @@ namespace kursach
             }
         }
 
-        private void Car_Load(object sender, EventArgs e)
+        public void Car_Load(object sender, EventArgs e)
         {
             populate();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        public void button3_Click(object sender, EventArgs e)
         {
             if (Regnumc.Text == "")
             {
@@ -92,9 +93,10 @@ namespace kursach
                     MessageBox.Show(Myex.Message);
                 }
             }
+        
         }
 
-        private void carsDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        public void carsDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Regnumc.Text = carsDGV.SelectedRows[0].Cells[0].Value.ToString();
             Brandc.Text = carsDGV.SelectedRows[0].Cells[1].Value.ToString();
@@ -103,8 +105,9 @@ namespace kursach
             Pricec.Text = carsDGV.SelectedRows[0].Cells[4].Value.ToString();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public void button2_Click(object sender, EventArgs e)
         {
+
             if (Regnumc.Text == "" || Brandc.Text == "" || Modelc.Text == "" || Pricec.Text == "")
             {
 
@@ -128,13 +131,17 @@ namespace kursach
                     MessageBox.Show(Myex.Message);
                 }
             }
+        
+
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        public void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
             MainForm main = new MainForm();
             main.Show();
         }
+
+     
     }
 }

@@ -49,10 +49,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.Pricec = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.AvailableC = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.Pricec = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carsDGV)).BeginInit();
             this.SuspendLayout();
@@ -294,15 +294,6 @@
             this.panel2.Size = new System.Drawing.Size(1089, 38);
             this.panel2.TabIndex = 48;
             // 
-            // Pricec
-            // 
-            this.Pricec.BackColor = System.Drawing.SystemColors.Info;
-            this.Pricec.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Pricec.Location = new System.Drawing.Point(166, 322);
-            this.Pricec.Name = "Pricec";
-            this.Pricec.Size = new System.Drawing.Size(165, 30);
-            this.Pricec.TabIndex = 50;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -338,6 +329,15 @@
             this.label9.Size = new System.Drawing.Size(120, 29);
             this.label9.TabIndex = 52;
             this.label9.Text = "Available";
+            // 
+            // Pricec
+            // 
+            this.Pricec.BackColor = System.Drawing.SystemColors.Info;
+            this.Pricec.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Pricec.Location = new System.Drawing.Point(166, 322);
+            this.Pricec.Name = "Pricec";
+            this.Pricec.Size = new System.Drawing.Size(165, 30);
+            this.Pricec.TabIndex = 50;
             // 
             // Car
             // 
@@ -378,27 +378,26 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label8;
-        private Guna.UI2.WinForms.Guna2DataGridView carsDGV;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox Regnumc;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox Modelc;
-        private System.Windows.Forms.TextBox Brandc;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox Pricec;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox AvailableC;
         private System.Windows.Forms.Label label9;
+        public System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.TextBox Regnumc;
+        public System.Windows.Forms.TextBox Brandc;
+        public System.Windows.Forms.TextBox Modelc;
+        public System.Windows.Forms.TextBox Pricec;
+        public System.Windows.Forms.ComboBox AvailableC;
+        public Guna.UI2.WinForms.Guna2DataGridView carsDGV;
+        public System.Windows.Forms.Button button4;
+        public System.Windows.Forms.Button button3;
+        public System.Windows.Forms.Button button2;
+        public System.Windows.Forms.Button button1;
     }
 }
