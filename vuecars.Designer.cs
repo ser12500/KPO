@@ -407,7 +407,7 @@ namespace kursach
             this.guna2PictureBox1car.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2PictureBox1car.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1car.ImageRotate = 0F;
-            this.guna2PictureBox1car.Location = new System.Drawing.Point(353, 208);
+            this.guna2PictureBox1car.Location = new System.Drawing.Point(350, 112);
             this.guna2PictureBox1car.Name = "guna2PictureBox1car";
             this.guna2PictureBox1car.Size = new System.Drawing.Size(826, 531);
             this.guna2PictureBox1car.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
