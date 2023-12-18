@@ -20,7 +20,7 @@ namespace kursach
         {
             InitializeComponent();
         }
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\kerge\OneDrive\Документы\car.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\chhv\Documents\car.mdf;Integrated Security=True;Connect Timeout=30");
         private void label2_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -28,7 +28,7 @@ namespace kursach
         private void fillcombo()
         {
             Con.Open();
-            string query = "select  RegNum from Car where Available='" + "Yes" + "' ";
+            string query = "select  RegNum from Car where Availabel='" + "Yes" + "' ";
             SqlCommand cmd = new SqlCommand(query, Con);
             SqlDataReader rdr;
             rdr = cmd.ExecuteReader();
@@ -80,7 +80,7 @@ namespace kursach
         private void update()
         {
             Con.Open();
-            string query = "update Car set Available='" + "No" + "', where RegNum =" + Carreg.SelectedValue.ToString() + ";";
+            string query = "update Car set Availabel='" + "No" + "', where RegNum =" + Carreg.SelectedValue.ToString() + ";";
             SqlCommand cmd = new SqlCommand(query, Con);
             cmd.ExecuteNonQuery();
             //MessageBox.Show("Car успешно обновлен");
@@ -90,7 +90,7 @@ namespace kursach
         private void updateDEL()
         {
             Con.Open();
-            string query = "update Car set Available='" + "Yes" + "', where RegNum =" + Carreg.SelectedValue.ToString() + ";";
+            string query = "update Car set Availabel='" + "Yes" + "', where RegNum =" + Carreg.SelectedValue.ToString() + ";";
             SqlCommand cmd = new SqlCommand(query, Con);
             cmd.ExecuteNonQuery();
             //MessageBox.Show("Car успешно обновлен");
