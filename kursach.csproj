@@ -131,16 +131,34 @@
     <EmbeddedResource Include="Car.resx">
       <DependentUpon>Car.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Car.ru.resx">
+      <DependentUpon>Car.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers.ru.resx">
       <DependentUpon>Customers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.ru.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.ru.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.ja.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.ru.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sales.resx">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales.ru.resx">
       <DependentUpon>Sales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Users1.resx">
@@ -161,6 +179,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Users1.ru.resx">
+      <DependentUpon>Users1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="vuecars.resx">
       <DependentUpon>vuecars.cs</DependentUpon>
     </EmbeddedResource>
@@ -203,6 +224,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CARS\" />
+    <Folder Include="localization\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

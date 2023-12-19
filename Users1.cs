@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Globalization;
 
 namespace kursach
 {
@@ -15,6 +16,11 @@ namespace kursach
     {
         public Users1()
         {
+            if (!String.IsNullOrEmpty(Properties.Settings.Default.Language))
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo(Properties.Settings.Default.Language);
+                System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo(Properties.Settings.Default.Language);
+            }
             InitializeComponent();
         }
         SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\chhv\Documents\car.mdf;Integrated Security=True;Connect Timeout=30");

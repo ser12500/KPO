@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,8 @@ namespace kursach
     {
         public LOGIN()
         {
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo("ru-RU");
+            System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
             InitializeComponent();
         }
 
@@ -43,6 +46,26 @@ namespace kursach
                 MessageBox.Show("Неправильный логин или пароль");
             }
             Con.Close();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_Load(object sender, LayoutEventArgs e)
+        {
+        
+        }
+
+        private void LOGIN_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

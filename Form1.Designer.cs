@@ -39,15 +39,10 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(402, 53);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "CAR DEALERSHIP";
             // 
             // timer1
             // 
@@ -55,42 +50,32 @@
             // 
             // myprogress
             // 
+            resources.ApplyResources(this.myprogress, "myprogress");
             this.myprogress.BackColor = System.Drawing.SystemColors.Desktop;
             this.myprogress.Controls.Add(this.Percentage);
             this.myprogress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.myprogress.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.myprogress.ForeColor = System.Drawing.Color.White;
             this.myprogress.Image = ((System.Drawing.Image)(resources.GetObject("myprogress.Image")));
-            this.myprogress.Location = new System.Drawing.Point(83, 65);
             this.myprogress.Minimum = 0;
             this.myprogress.Name = "myprogress";
             this.myprogress.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.myprogress.Size = new System.Drawing.Size(287, 287);
-            this.myprogress.TabIndex = 3;
-            this.myprogress.Text = "guna2CircleProgressBar1";
             // 
             // Percentage
             // 
-            this.Percentage.AutoSize = true;
-            this.Percentage.Location = new System.Drawing.Point(140, 193);
+            resources.ApplyResources(this.Percentage, "Percentage");
             this.Percentage.Name = "Percentage";
-            this.Percentage.Size = new System.Drawing.Size(0, 28);
-            this.Percentage.TabIndex = 0;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlText;
-            this.ClientSize = new System.Drawing.Size(472, 364);
             this.Controls.Add(this.myprogress);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.Gray;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.myprogress.ResumeLayout(false);
             this.myprogress.PerformLayout();

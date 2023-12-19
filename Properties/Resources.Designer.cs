@@ -34,6 +34,8 @@ namespace kursach.Properties
         {
         }
 
+        public static object Strings { get; internal set; }
+
         /// <summary>
         ///   Возврат кэшированного экземпляра ResourceManager, используемого этим классом.
         /// </summary>

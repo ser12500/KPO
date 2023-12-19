@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sales));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -61,113 +61,80 @@
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1087, 117);
-            this.panel1.TabIndex = 37;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            resources.ApplyResources(this.label2, "label2");
             this.label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(1071, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(15, 16);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "X";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.label5, "label5");
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(429, 70);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(237, 38);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Manage Sales";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("OpenSymbol", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.label1, "label1");
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(351, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(392, 61);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Car Dealership";
             // 
             // panel2
             // 
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 635);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1087, 38);
-            this.panel2.TabIndex = 50;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
+            resources.ApplyResources(this.label7, "label7");
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.ForeColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(33, 395);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(72, 29);
-            this.label7.TabIndex = 79;
-            this.label7.Text = "Fees";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
+            resources.ApplyResources(this.label8, "label8");
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label8.ForeColor = System.Drawing.Color.Transparent;
-            this.label8.Location = new System.Drawing.Point(33, 167);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 29);
-            this.label8.TabIndex = 67;
-            this.label8.Text = "Id";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // SalesDGV
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.SalesDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.SalesDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.SalesDGV.ColumnHeadersHeight = 24;
+            resources.ApplyResources(this.SalesDGV, "SalesDGV");
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            this.SalesDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.SalesDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.SalesDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.SalesDGV.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.SalesDGV.DefaultCellStyle = dataGridViewCellStyle9;
             this.SalesDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.SalesDGV.Location = new System.Drawing.Point(571, 218);
             this.SalesDGV.Name = "SalesDGV";
             this.SalesDGV.RowHeadersVisible = false;
-            this.SalesDGV.RowHeadersWidth = 51;
             this.SalesDGV.RowTemplate.Height = 24;
-            this.SalesDGV.Size = new System.Drawing.Size(469, 388);
-            this.SalesDGV.TabIndex = 78;
             this.SalesDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.SalesDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
             this.SalesDGV.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
@@ -193,193 +160,131 @@
             // 
             // button4
             // 
+            resources.ApplyResources(this.button4, "button4");
             this.button4.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(204, 530);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(164, 45);
-            this.button4.TabIndex = 77;
-            this.button4.Text = "Back";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
+            resources.ApplyResources(this.button3, "button3");
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(382, 471);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(136, 39);
-            this.button3.TabIndex = 76;
-            this.button3.Text = "DELETE";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
+            resources.ApplyResources(this.button2, "button2");
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(204, 471);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(164, 39);
-            this.button2.TabIndex = 75;
-            this.button2.Text = "EXIT";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
+            resources.ApplyResources(this.button1, "button1");
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(12, 471);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(164, 39);
-            this.button1.TabIndex = 74;
-            this.button1.Text = "ADD";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
+            resources.ApplyResources(this.label3, "label3");
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(639, 143);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(342, 54);
-            this.label3.TabIndex = 72;
-            this.label3.Text = "Cars on Sales ";
             // 
             // name
             // 
+            resources.ApplyResources(this.name, "name");
             this.name.BackColor = System.Drawing.SystemColors.Desktop;
-            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.name.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.name.Location = new System.Drawing.Point(181, 298);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(187, 30);
-            this.name.TabIndex = 70;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
+            resources.ApplyResources(this.label4, "label4");
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(33, 338);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 29);
-            this.label4.TabIndex = 69;
-            this.label4.Text = "Date";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
+            resources.ApplyResources(this.label6, "label6");
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.ForeColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(33, 299);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(82, 29);
-            this.label6.TabIndex = 68;
-            this.label6.Text = "Name";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
+            resources.ApplyResources(this.label9, "label9");
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label9.ForeColor = System.Drawing.Color.Transparent;
-            this.label9.Location = new System.Drawing.Point(33, 218);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(102, 29);
-            this.label9.TabIndex = 82;
-            this.label9.Text = "CarReg";
             // 
             // Carreg
             // 
-            this.Carreg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.Carreg, "Carreg");
             this.Carreg.FormattingEnabled = true;
             this.Carreg.Items.AddRange(new object[] {
-            "YES",
-            "NO"});
-            this.Carreg.Location = new System.Drawing.Point(181, 218);
+            resources.GetString("Carreg.Items"),
+            resources.GetString("Carreg.Items1")});
             this.Carreg.Name = "Carreg";
-            this.Carreg.Size = new System.Drawing.Size(187, 33);
-            this.Carreg.TabIndex = 81;
             this.Carreg.SelectionChangeCommitted += new System.EventHandler(this.Carreg_SelectionChangeCommitted);
             // 
             // Rentaldate
             // 
+            resources.ApplyResources(this.Rentaldate, "Rentaldate");
             this.Rentaldate.Checked = true;
             this.Rentaldate.FillColor = System.Drawing.Color.Black;
-            this.Rentaldate.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Rentaldate.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Rentaldate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.Rentaldate.Location = new System.Drawing.Point(181, 338);
             this.Rentaldate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.Rentaldate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.Rentaldate.Name = "Rentaldate";
-            this.Rentaldate.Size = new System.Drawing.Size(187, 36);
-            this.Rentaldate.TabIndex = 83;
             this.Rentaldate.Value = new System.DateTime(2023, 12, 16, 20, 40, 12, 789);
             // 
             // fees
             // 
+            resources.ApplyResources(this.fees, "fees");
             this.fees.BackColor = System.Drawing.SystemColors.Desktop;
-            this.fees.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.fees.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.fees.Location = new System.Drawing.Point(181, 395);
             this.fees.Name = "fees";
-            this.fees.Size = new System.Drawing.Size(187, 30);
-            this.fees.TabIndex = 84;
             // 
             // id
             // 
+            resources.ApplyResources(this.id, "id");
             this.id.BackColor = System.Drawing.SystemColors.Desktop;
-            this.id.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.id.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.id.Location = new System.Drawing.Point(181, 167);
             this.id.Name = "id";
-            this.id.Size = new System.Drawing.Size(187, 30);
-            this.id.TabIndex = 85;
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
+            resources.ApplyResources(this.label10, "label10");
             this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label10.ForeColor = System.Drawing.Color.Transparent;
-            this.label10.Location = new System.Drawing.Point(33, 260);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(87, 29);
-            this.label10.TabIndex = 86;
-            this.label10.Text = "CustId";
             // 
             // CustId
             // 
-            this.CustId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.CustId, "CustId");
             this.CustId.FormattingEnabled = true;
             this.CustId.Items.AddRange(new object[] {
-            "YES",
-            "NO"});
-            this.CustId.Location = new System.Drawing.Point(181, 260);
+            resources.GetString("CustId.Items"),
+            resources.GetString("CustId.Items1")});
             this.CustId.Name = "CustId";
-            this.CustId.Size = new System.Drawing.Size(187, 33);
-            this.CustId.TabIndex = 87;
             this.CustId.SelectionChangeCommitted += new System.EventHandler(this.CustId_SelectionChangeCommitted);
             // 
             // Sales
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1087, 673);
             this.Controls.Add(this.CustId);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.id);
@@ -402,8 +307,6 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Sales";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Rental";
             this.Load += new System.EventHandler(this.Rental_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

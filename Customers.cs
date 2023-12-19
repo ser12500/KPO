@@ -8,14 +8,24 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 using System.Windows.Forms;
+
 
 namespace kursach
 {
     public partial class Customers : Form
     {
+
+
         public Customers()
         {
+            if (!String.IsNullOrEmpty(Properties.Settings.Default.Language))
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo(Properties.Settings.Default.Language);
+                System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo(Properties.Settings.Default.Language);
+            }
+
             InitializeComponent();
         }
         SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\chhv\Documents\car.mdf;Integrated Security=True;Connect Timeout=30");

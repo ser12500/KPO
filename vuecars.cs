@@ -151,5 +151,10 @@ namespace kursach
             MainForm main = new MainForm();
             main.Show();
         }
+
+        private void label30_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

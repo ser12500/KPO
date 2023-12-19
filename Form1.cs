@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
+using kursach.Properties;
 
 namespace kursach
 {
@@ -14,7 +16,10 @@ namespace kursach
     {
         public Form1()
         {
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo("ru-RU");
+            System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("ru-RU");
             InitializeComponent();
+
         }
         int startpoint = 0;
         private void timer1_Tick(object sender, EventArgs e)

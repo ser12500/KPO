@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -18,6 +19,11 @@ namespace kursach
     {
         public Sales()
         {
+            if (!String.IsNullOrEmpty(Properties.Settings.Default.Language))
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new CultureInfo(Properties.Settings.Default.Language);
+                System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo(Properties.Settings.Default.Language);
+            }
             InitializeComponent();
         }
         SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\chhv\Documents\car.mdf;Integrated Security=True;Connect Timeout=30");
@@ -189,6 +195,11 @@ namespace kursach
             Carreg.SelectedValue = SalesDGV.SelectedRows[0].Cells[1].Value.ToString();
             CustId.Text = SalesDGV.SelectedRows[0].Cells[3].Value.ToString();
             fees.Text = SalesDGV.SelectedRows[0].Cells[4].Value.ToString();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
