@@ -63,6 +63,13 @@ namespace kursach
             vuecars car = new vuecars();
             car.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LOGIN main = new LOGIN();
+            main.Show();
+        }
     }
     
 }   

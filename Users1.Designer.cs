@@ -327,6 +327,7 @@
             this.Controls.Add(this.label6);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Users1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Users1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.UserDGV)).EndInit();
             this.panel1.ResumeLayout(false);

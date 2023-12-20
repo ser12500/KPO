@@ -5,15 +5,19 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
-
+using System.IO;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace kursach
 {
-    public partial class Car : Form
+    [Serializable]
+    public partial class Car : Form, ISerializable
     {
         public Car()
         {
@@ -38,7 +42,7 @@ namespace kursach
         public void button1_Click(object sender, EventArgs e)
         {
 
-            if (Regnumc.Text == "" || Brandc.Text == "" || Modelc.Text == "" || Pricec.Text == "" )
+            if (Regnumc.Text == "" || Brandc.Text == "" || Modelc.Text == "" || Pricec.Text == "")
             {
 
                 MessageBox.Show("Недостающая информация");
@@ -93,7 +97,7 @@ namespace kursach
                     MessageBox.Show(Myex.Message);
                 }
             }
-        
+
         }
 
         public void carsDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -118,7 +122,7 @@ namespace kursach
                 try
                 {
                     Con.Open();
-                    string query = "update Car set Brand = '" + Brandc.Text + "',Model ='" + Modelc.Text + "',Available='"+ AvailableC.SelectedItem.ToString() + "',Price = '"+Pricec.Text+"' where RegNum =" + Regnumc.Text + ";";
+                    string query = "update Car set Brand = '" + Brandc.Text + "',Model ='" + Modelc.Text + "',Available='" + AvailableC.SelectedItem.ToString() + "',Price = '" + Pricec.Text + "' where RegNum =" + Regnumc.Text + ";";
                     SqlCommand cmd = new SqlCommand(query, Con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Car успешно обновлен");
@@ -131,7 +135,7 @@ namespace kursach
                     MessageBox.Show(Myex.Message);
                 }
             }
-        
+
 
         }
 
@@ -141,7 +145,78 @@ namespace kursach
             MainForm main = new MainForm();
             main.Show();
         }
+        public void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            // Сериализация необходимых полей
+            info.AddValue("RegNum", Regnumc.Text);
+            info.AddValue("Brand", Brandc.Text);
+            info.AddValue("Model", Modelc.Text);
+            info.AddValue("Price", Pricec.Text);
 
-     
+
+
+        }
+        protected Car(SerializationInfo info, StreamingContext context)
+        {
+            Regnumc.Text = info.GetString("RegNum");
+            Brandc.Text = info.GetString("Brand");
+            Modelc.Text = info.GetString("Model");
+            Pricec.Text = info.GetString("Price");
+        }
+
+
+    
+      
+
+        private void SaveCarToFile(string filePath)
+        {
+            try
+            {
+                BinaryFormatter formatter = new BinaryFormatter();
+                using (FileStream stream = new FileStream(filePath, FileMode.Create))
+                {
+                    formatter.Serialize(stream, this);
+                }
+                MessageBox.Show("Сериализация прошла успешно.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка при сохранении: " + ex.Message);
+            }
+
+        }
+        private void LoadCarFromFile(string filePath)
+        {
+            try
+            {
+                BinaryFormatter formatter = new BinaryFormatter();
+                using (FileStream stream = new FileStream(filePath, FileMode.Open))
+                {
+                    Car loadedCar = (Car)formatter.Deserialize(stream);
+
+                    // Заменяем текущий объект Car загруженным объектом
+                    Regnumc.Text = loadedCar.Regnumc.Text;
+                    Brandc.Text = loadedCar.Brandc.Text;
+                    Modelc.Text = loadedCar.Modelc.Text;
+                    
+                    Pricec.Text = loadedCar.Pricec.Text;
+
+                    MessageBox.Show("Car успешно загружен из файла.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка при загрузке: " + ex.Message);
+            }
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SaveCarToFile("car_data.dat");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            LoadCarFromFile("car_data.dat");
+        }
     }
 }

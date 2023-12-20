@@ -127,9 +127,9 @@ namespace kursach
             this.guna2Panel2.Controls.Add(this.label11);
             this.guna2Panel2.Controls.Add(this.label9);
             this.guna2Panel2.Controls.Add(this.pictureBox1);
-            this.guna2Panel2.Location = new System.Drawing.Point(1182, 96);
+            this.guna2Panel2.Location = new System.Drawing.Point(1711, 147);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(335, 57);
+            this.guna2Panel2.Size = new System.Drawing.Size(335, 137);
             this.guna2Panel2.TabIndex = 1;
             // 
             // label11
@@ -147,7 +147,7 @@ namespace kursach
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(116, 28);
+            this.label9.Location = new System.Drawing.Point(44, 3);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(145, 25);
             this.label9.TabIndex = 25;
@@ -158,7 +158,7 @@ namespace kursach
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 52);
+            this.pictureBox1.Size = new System.Drawing.Size(224, 131);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -182,7 +182,7 @@ namespace kursach
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2ControlBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2ControlBox1.IconColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(1486, 0);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(1898, 0);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
@@ -197,7 +197,7 @@ namespace kursach
             this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2ControlBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2ControlBox2.IconColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2ControlBox2.Location = new System.Drawing.Point(1444, 0);
+            this.guna2ControlBox2.Location = new System.Drawing.Point(1856, 0);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
             this.guna2ControlBox2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2ControlBox2.Size = new System.Drawing.Size(45, 29);
@@ -212,7 +212,7 @@ namespace kursach
             this.guna2ControlBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2ControlBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2ControlBox3.IconColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guna2ControlBox3.Location = new System.Drawing.Point(1406, 0);
+            this.guna2ControlBox3.Location = new System.Drawing.Point(1818, 0);
             this.guna2ControlBox3.Name = "guna2ControlBox3";
             this.guna2ControlBox3.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2ControlBox3.Size = new System.Drawing.Size(45, 29);
@@ -224,9 +224,9 @@ namespace kursach
             this.guna2Panel3.Controls.Add(this.label12);
             this.guna2Panel3.Controls.Add(this.label14);
             this.guna2Panel3.Controls.Add(this.pictureBox2);
-            this.guna2Panel3.Location = new System.Drawing.Point(1182, 182);
+            this.guna2Panel3.Location = new System.Drawing.Point(1711, 610);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(335, 69);
+            this.guna2Panel3.Size = new System.Drawing.Size(335, 134);
             this.guna2Panel3.TabIndex = 28;
             // 
             // label12
@@ -244,7 +244,7 @@ namespace kursach
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label14.Location = new System.Drawing.Point(109, 26);
+            this.label14.Location = new System.Drawing.Point(20, 9);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(142, 25);
             this.label14.TabIndex = 25;
@@ -255,7 +255,7 @@ namespace kursach
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(3, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 66);
+            this.pictureBox2.Size = new System.Drawing.Size(218, 131);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -267,9 +267,9 @@ namespace kursach
             this.guna2Panel4.Controls.Add(this.label15);
             this.guna2Panel4.Controls.Add(this.label17);
             this.guna2Panel4.Controls.Add(this.pictureBox3);
-            this.guna2Panel4.Location = new System.Drawing.Point(1182, 261);
+            this.guna2Panel4.Location = new System.Drawing.Point(1711, 293);
             this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(335, 73);
+            this.guna2Panel4.Size = new System.Drawing.Size(335, 137);
             this.guna2Panel4.TabIndex = 28;
             // 
             // label15
@@ -287,7 +287,7 @@ namespace kursach
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label17.Location = new System.Drawing.Point(116, 30);
+            this.label17.Location = new System.Drawing.Point(41, 11);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(171, 25);
             this.label17.TabIndex = 25;
@@ -296,9 +296,9 @@ namespace kursach
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Location = new System.Drawing.Point(0, 3);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 67);
+            this.pictureBox3.Size = new System.Drawing.Size(224, 131);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -310,9 +310,9 @@ namespace kursach
             this.guna2Panel5.Controls.Add(this.label18);
             this.guna2Panel5.Controls.Add(this.label20);
             this.guna2Panel5.Controls.Add(this.pictureBox4);
-            this.guna2Panel5.Location = new System.Drawing.Point(1182, 340);
+            this.guna2Panel5.Location = new System.Drawing.Point(1711, 926);
             this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.Size = new System.Drawing.Size(335, 71);
+            this.guna2Panel5.Size = new System.Drawing.Size(335, 141);
             this.guna2Panel5.TabIndex = 28;
             // 
             // label18
@@ -330,7 +330,7 @@ namespace kursach
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label20.Location = new System.Drawing.Point(109, 28);
+            this.label20.Location = new System.Drawing.Point(13, 6);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(187, 25);
             this.label20.TabIndex = 25;
@@ -339,9 +339,9 @@ namespace kursach
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox4.Location = new System.Drawing.Point(3, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 65);
+            this.pictureBox4.Size = new System.Drawing.Size(218, 134);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
@@ -353,9 +353,9 @@ namespace kursach
             this.guna2Panel7.Controls.Add(this.label24);
             this.guna2Panel7.Controls.Add(this.label26);
             this.guna2Panel7.Controls.Add(this.pictureBox6);
-            this.guna2Panel7.Location = new System.Drawing.Point(1182, 436);
+            this.guna2Panel7.Location = new System.Drawing.Point(1711, 766);
             this.guna2Panel7.Name = "guna2Panel7";
-            this.guna2Panel7.Size = new System.Drawing.Size(335, 73);
+            this.guna2Panel7.Size = new System.Drawing.Size(335, 137);
             this.guna2Panel7.TabIndex = 28;
             // 
             // label24
@@ -373,7 +373,7 @@ namespace kursach
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label26.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label26.Location = new System.Drawing.Point(109, 30);
+            this.label26.Location = new System.Drawing.Point(20, 3);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(164, 25);
             this.label26.TabIndex = 25;
@@ -384,7 +384,7 @@ namespace kursach
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(3, 3);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(100, 67);
+            this.pictureBox6.Size = new System.Drawing.Size(218, 131);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 2;
             this.pictureBox6.TabStop = false;
@@ -394,11 +394,11 @@ namespace kursach
             // 
             this.label30.AutoSize = true;
             this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label30.ForeColor = System.Drawing.Color.IndianRed;
-            this.label30.Location = new System.Drawing.Point(830, 26);
+            this.label30.Location = new System.Drawing.Point(1198, 37);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(234, 51);
+            this.label30.Size = new System.Drawing.Size(322, 69);
             this.label30.TabIndex = 28;
             this.label30.Text = "Макс цена";
             // 
@@ -407,9 +407,9 @@ namespace kursach
             this.guna2PictureBox1car.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.guna2PictureBox1car.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1car.ImageRotate = 0F;
-            this.guna2PictureBox1car.Location = new System.Drawing.Point(350, 112);
+            this.guna2PictureBox1car.Location = new System.Drawing.Point(350, 144);
             this.guna2PictureBox1car.Name = "guna2PictureBox1car";
-            this.guna2PictureBox1car.Size = new System.Drawing.Size(826, 531);
+            this.guna2PictureBox1car.Size = new System.Drawing.Size(1355, 958);
             this.guna2PictureBox1car.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1car.TabIndex = 29;
             this.guna2PictureBox1car.TabStop = false;
@@ -420,9 +420,9 @@ namespace kursach
             this.guna2Panel6.Controls.Add(this.label21);
             this.guna2Panel6.Controls.Add(this.label23);
             this.guna2Panel6.Controls.Add(this.pictureBox5);
-            this.guna2Panel6.Location = new System.Drawing.Point(1182, 527);
+            this.guna2Panel6.Location = new System.Drawing.Point(1711, 454);
             this.guna2Panel6.Name = "guna2Panel6";
-            this.guna2Panel6.Size = new System.Drawing.Size(335, 73);
+            this.guna2Panel6.Size = new System.Drawing.Size(335, 134);
             this.guna2Panel6.TabIndex = 30;
             // 
             // label21
@@ -440,7 +440,7 @@ namespace kursach
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label23.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label23.Location = new System.Drawing.Point(116, 18);
+            this.label23.Location = new System.Drawing.Point(14, 3);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(151, 25);
             this.label23.TabIndex = 25;
@@ -451,7 +451,7 @@ namespace kursach
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(3, 3);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 67);
+            this.pictureBox5.Size = new System.Drawing.Size(221, 128);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 2;
             this.pictureBox5.TabStop = false;
@@ -461,9 +461,9 @@ namespace kursach
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(420, 25);
+            this.pictureBox7.Location = new System.Drawing.Point(380, 0);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(100, 52);
+            this.pictureBox7.Size = new System.Drawing.Size(167, 122);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 28;
             this.pictureBox7.TabStop = false;
@@ -473,9 +473,9 @@ namespace kursach
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(535, 25);
+            this.pictureBox8.Location = new System.Drawing.Point(568, 0);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(100, 52);
+            this.pictureBox8.Size = new System.Drawing.Size(177, 122);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 31;
             this.pictureBox8.TabStop = false;
@@ -485,9 +485,9 @@ namespace kursach
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(657, 25);
+            this.pictureBox9.Location = new System.Drawing.Point(773, 0);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(100, 52);
+            this.pictureBox9.Size = new System.Drawing.Size(187, 122);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 32;
             this.pictureBox9.TabStop = false;
@@ -499,9 +499,9 @@ namespace kursach
             this.guna2Panel1.Controls.Add(this.label1);
             this.guna2Panel1.Controls.Add(this.label3);
             this.guna2Panel1.Controls.Add(this.pictureBox10);
-            this.guna2Panel1.Location = new System.Drawing.Point(12, 530);
+            this.guna2Panel1.Location = new System.Drawing.Point(9, 926);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(335, 73);
+            this.guna2Panel1.Size = new System.Drawing.Size(335, 137);
             this.guna2Panel1.TabIndex = 36;
             // 
             // label1
@@ -519,7 +519,7 @@ namespace kursach
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(109, 24);
+            this.label3.Location = new System.Drawing.Point(13, 6);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(199, 25);
             this.label3.TabIndex = 25;
@@ -528,9 +528,9 @@ namespace kursach
             // pictureBox10
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox10.Location = new System.Drawing.Point(3, 6);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(100, 67);
+            this.pictureBox10.Size = new System.Drawing.Size(218, 128);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 2;
             this.pictureBox10.TabStop = false;
@@ -542,9 +542,9 @@ namespace kursach
             this.guna2Panel8.Controls.Add(this.label4);
             this.guna2Panel8.Controls.Add(this.label6);
             this.guna2Panel8.Controls.Add(this.pictureBox11);
-            this.guna2Panel8.Location = new System.Drawing.Point(12, 439);
+            this.guna2Panel8.Location = new System.Drawing.Point(12, 750);
             this.guna2Panel8.Name = "guna2Panel8";
-            this.guna2Panel8.Size = new System.Drawing.Size(335, 73);
+            this.guna2Panel8.Size = new System.Drawing.Size(335, 134);
             this.guna2Panel8.TabIndex = 32;
             // 
             // label4
@@ -562,18 +562,18 @@ namespace kursach
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(109, 27);
+            this.label6.Location = new System.Drawing.Point(76, 3);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(160, 25);
+            this.label6.Size = new System.Drawing.Size(91, 25);
             this.label6.TabIndex = 25;
-            this.label6.Text = "Hyundai Venue";
+            this.label6.Text = "Audi Q5";
             // 
             // pictureBox11
             // 
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
             this.pictureBox11.Location = new System.Drawing.Point(3, 3);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(100, 67);
+            this.pictureBox11.Size = new System.Drawing.Size(203, 128);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 2;
             this.pictureBox11.TabStop = false;
@@ -585,9 +585,9 @@ namespace kursach
             this.guna2Panel9.Controls.Add(this.label7);
             this.guna2Panel9.Controls.Add(this.label27);
             this.guna2Panel9.Controls.Add(this.pictureBox12);
-            this.guna2Panel9.Location = new System.Drawing.Point(12, 343);
+            this.guna2Panel9.Location = new System.Drawing.Point(9, 439);
             this.guna2Panel9.Name = "guna2Panel9";
-            this.guna2Panel9.Size = new System.Drawing.Size(335, 71);
+            this.guna2Panel9.Size = new System.Drawing.Size(335, 137);
             this.guna2Panel9.TabIndex = 33;
             // 
             // label7
@@ -605,18 +605,18 @@ namespace kursach
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label27.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label27.Location = new System.Drawing.Point(109, 25);
+            this.label27.Location = new System.Drawing.Point(40, 3);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(230, 25);
+            this.label27.Size = new System.Drawing.Size(148, 25);
             this.label27.TabIndex = 25;
-            this.label27.Text = " BMW M8 Gran Coupe";
+            this.label27.Text = "Buick Enclave";
             // 
             // pictureBox12
             // 
             this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
             this.pictureBox12.Location = new System.Drawing.Point(3, 3);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(100, 65);
+            this.pictureBox12.Size = new System.Drawing.Size(204, 131);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 2;
             this.pictureBox12.TabStop = false;
@@ -628,9 +628,9 @@ namespace kursach
             this.guna2Panel10.Controls.Add(this.label28);
             this.guna2Panel10.Controls.Add(this.label31);
             this.guna2Panel10.Controls.Add(this.pictureBox13);
-            this.guna2Panel10.Location = new System.Drawing.Point(12, 264);
+            this.guna2Panel10.Location = new System.Drawing.Point(9, 299);
             this.guna2Panel10.Name = "guna2Panel10";
-            this.guna2Panel10.Size = new System.Drawing.Size(335, 73);
+            this.guna2Panel10.Size = new System.Drawing.Size(335, 134);
             this.guna2Panel10.TabIndex = 34;
             // 
             // label28
@@ -648,7 +648,7 @@ namespace kursach
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label31.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label31.Location = new System.Drawing.Point(109, 27);
+            this.label31.Location = new System.Drawing.Point(3, 3);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(184, 25);
             this.label31.TabIndex = 25;
@@ -659,7 +659,7 @@ namespace kursach
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
             this.pictureBox13.Location = new System.Drawing.Point(3, 3);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(100, 67);
+            this.pictureBox13.Size = new System.Drawing.Size(204, 128);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 2;
             this.pictureBox13.TabStop = false;
@@ -671,9 +671,9 @@ namespace kursach
             this.guna2Panel11.Controls.Add(this.label32);
             this.guna2Panel11.Controls.Add(this.label34);
             this.guna2Panel11.Controls.Add(this.pictureBox14);
-            this.guna2Panel11.Location = new System.Drawing.Point(12, 185);
+            this.guna2Panel11.Location = new System.Drawing.Point(9, 591);
             this.guna2Panel11.Name = "guna2Panel11";
-            this.guna2Panel11.Size = new System.Drawing.Size(335, 69);
+            this.guna2Panel11.Size = new System.Drawing.Size(335, 137);
             this.guna2Panel11.TabIndex = 35;
             // 
             // label32
@@ -691,18 +691,18 @@ namespace kursach
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label34.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label34.Location = new System.Drawing.Point(116, 23);
+            this.label34.Location = new System.Drawing.Point(3, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(85, 25);
+            this.label34.Size = new System.Drawing.Size(185, 25);
             this.label34.TabIndex = 25;
-            this.label34.Text = "Cadilac";
+            this.label34.Text = "Cadillac Escalade";
             // 
             // pictureBox14
             // 
             this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
             this.pictureBox14.Location = new System.Drawing.Point(3, 0);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(100, 66);
+            this.pictureBox14.Size = new System.Drawing.Size(207, 134);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 2;
             this.pictureBox14.TabStop = false;
@@ -714,9 +714,9 @@ namespace kursach
             this.guna2Panel12.Controls.Add(this.label35);
             this.guna2Panel12.Controls.Add(this.label37);
             this.guna2Panel12.Controls.Add(this.pictureBox15);
-            this.guna2Panel12.Location = new System.Drawing.Point(12, 99);
+            this.guna2Panel12.Location = new System.Drawing.Point(9, 144);
             this.guna2Panel12.Name = "guna2Panel12";
-            this.guna2Panel12.Size = new System.Drawing.Size(335, 57);
+            this.guna2Panel12.Size = new System.Drawing.Size(335, 137);
             this.guna2Panel12.TabIndex = 31;
             // 
             // label35
@@ -734,7 +734,7 @@ namespace kursach
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label37.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label37.Location = new System.Drawing.Point(116, 25);
+            this.label37.Location = new System.Drawing.Point(30, 3);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(145, 25);
             this.label37.TabIndex = 25;
@@ -745,7 +745,7 @@ namespace kursach
             this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
             this.pictureBox15.Location = new System.Drawing.Point(3, 3);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(100, 52);
+            this.pictureBox15.Size = new System.Drawing.Size(217, 131);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 2;
             this.pictureBox15.TabStop = false;
@@ -759,9 +759,9 @@ namespace kursach
             this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(12, 619);
+            this.guna2Button2.Location = new System.Drawing.Point(9, 12);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button2.Size = new System.Drawing.Size(338, 71);
             this.guna2Button2.TabIndex = 38;
             this.guna2Button2.Text = "Back";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -772,7 +772,7 @@ namespace kursach
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1530, 664);
+            this.ClientSize = new System.Drawing.Size(1942, 1102);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.pictureBox9);
@@ -798,6 +798,7 @@ namespace kursach
             this.Name = "vuecars";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "vuecars";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

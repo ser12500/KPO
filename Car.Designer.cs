@@ -53,6 +53,8 @@
             this.AvailableC = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.Pricec = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.carsDGV)).BeginInit();
             this.SuspendLayout();
@@ -106,10 +108,10 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.SystemColors.Control;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(61)))), ((int)(((byte)(40)))), ((int)(((byte)(55)))));
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(42, 180);
+            this.label8.ForeColor = System.Drawing.Color.Transparent;
+            this.label8.Location = new System.Drawing.Point(127, 181);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(115, 29);
             this.label8.TabIndex = 36;
@@ -138,7 +140,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.carsDGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.carsDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.carsDGV.Location = new System.Drawing.Point(670, 199);
+            this.carsDGV.Location = new System.Drawing.Point(666, 180);
             this.carsDGV.Name = "carsDGV";
             this.carsDGV.RowHeadersVisible = false;
             this.carsDGV.RowHeadersWidth = 51;
@@ -186,9 +188,9 @@
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(410, 427);
+            this.button3.Location = new System.Drawing.Point(391, 427);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(136, 39);
+            this.button3.Size = new System.Drawing.Size(164, 45);
             this.button3.TabIndex = 45;
             this.button3.Text = "DELETE";
             this.button3.UseVisualStyleBackColor = false;
@@ -201,7 +203,7 @@
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Location = new System.Drawing.Point(221, 427);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(164, 39);
+            this.button2.Size = new System.Drawing.Size(164, 45);
             this.button2.TabIndex = 44;
             this.button2.Text = "EXIT";
             this.button2.UseVisualStyleBackColor = false;
@@ -214,7 +216,7 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(47, 427);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(164, 39);
+            this.button1.Size = new System.Drawing.Size(164, 45);
             this.button1.TabIndex = 43;
             this.button1.Text = "ADD";
             this.button1.UseVisualStyleBackColor = false;
@@ -222,10 +224,10 @@
             // 
             // Regnumc
             // 
-            this.Regnumc.BackColor = System.Drawing.SystemColors.Info;
+            this.Regnumc.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.Regnumc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Regnumc.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.Regnumc.Location = new System.Drawing.Point(164, 179);
+            this.Regnumc.Location = new System.Drawing.Point(325, 180);
             this.Regnumc.Name = "Regnumc";
             this.Regnumc.Size = new System.Drawing.Size(163, 30);
             this.Regnumc.TabIndex = 42;
@@ -233,10 +235,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.Control;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(61)))), ((int)(((byte)(40)))), ((int)(((byte)(55)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(731, 127);
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(739, 120);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(217, 54);
             this.label3.TabIndex = 41;
@@ -244,19 +246,19 @@
             // 
             // Modelc
             // 
-            this.Modelc.BackColor = System.Drawing.SystemColors.Info;
+            this.Modelc.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.Modelc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Modelc.Location = new System.Drawing.Point(166, 274);
+            this.Modelc.Location = new System.Drawing.Point(325, 274);
             this.Modelc.Name = "Modelc";
             this.Modelc.Size = new System.Drawing.Size(165, 30);
             this.Modelc.TabIndex = 40;
             // 
             // Brandc
             // 
-            this.Brandc.BackColor = System.Drawing.SystemColors.Info;
+            this.Brandc.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.Brandc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Brandc.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.Brandc.Location = new System.Drawing.Point(164, 230);
+            this.Brandc.Location = new System.Drawing.Point(325, 230);
             this.Brandc.Name = "Brandc";
             this.Brandc.Size = new System.Drawing.Size(163, 30);
             this.Brandc.TabIndex = 39;
@@ -264,10 +266,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(61)))), ((int)(((byte)(40)))), ((int)(((byte)(55)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(43, 274);
+            this.label4.ForeColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(127, 274);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(86, 29);
             this.label4.TabIndex = 38;
@@ -276,10 +278,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.SystemColors.Control;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(61)))), ((int)(((byte)(40)))), ((int)(((byte)(55)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(42, 230);
+            this.label6.ForeColor = System.Drawing.Color.Transparent;
+            this.label6.Location = new System.Drawing.Point(129, 230);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 29);
             this.label6.TabIndex = 37;
@@ -297,10 +299,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(61)))), ((int)(((byte)(40)))), ((int)(((byte)(55)))));
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(43, 322);
+            this.label7.ForeColor = System.Drawing.Color.Transparent;
+            this.label7.Location = new System.Drawing.Point(127, 323);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(74, 29);
             this.label7.TabIndex = 49;
@@ -311,9 +313,9 @@
             this.AvailableC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AvailableC.FormattingEnabled = true;
             this.AvailableC.Items.AddRange(new object[] {
-            "YES",
-            "NO"});
-            this.AvailableC.Location = new System.Drawing.Point(169, 364);
+            "В наличие",
+            "Нет в наличие"});
+            this.AvailableC.Location = new System.Drawing.Point(325, 365);
             this.AvailableC.Name = "AvailableC";
             this.AvailableC.Size = new System.Drawing.Size(163, 33);
             this.AvailableC.TabIndex = 51;
@@ -321,10 +323,10 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(61)))), ((int)(((byte)(40)))), ((int)(((byte)(55)))));
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(43, 368);
+            this.label9.ForeColor = System.Drawing.Color.Transparent;
+            this.label9.Location = new System.Drawing.Point(127, 369);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(120, 29);
             this.label9.TabIndex = 52;
@@ -332,12 +334,38 @@
             // 
             // Pricec
             // 
-            this.Pricec.BackColor = System.Drawing.SystemColors.Info;
+            this.Pricec.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.Pricec.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Pricec.Location = new System.Drawing.Point(166, 322);
+            this.Pricec.Location = new System.Drawing.Point(325, 323);
             this.Pricec.Name = "Pricec";
             this.Pricec.Size = new System.Drawing.Size(165, 30);
             this.Pricec.TabIndex = 50;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button5.Location = new System.Drawing.Point(48, 487);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(163, 45);
+            this.button5.TabIndex = 53;
+            this.button5.Text = "Ser";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Location = new System.Drawing.Point(391, 487);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(164, 45);
+            this.button6.TabIndex = 54;
+            this.button6.Text = "Des";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Car
             // 
@@ -346,6 +374,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1089, 651);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.AvailableC);
             this.Controls.Add(this.Pricec);
@@ -399,5 +429,7 @@
         public System.Windows.Forms.Button button3;
         public System.Windows.Forms.Button button2;
         public System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Button button5;
+        public System.Windows.Forms.Button button6;
     }
 }

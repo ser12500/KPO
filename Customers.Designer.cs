@@ -167,7 +167,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.custDGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.custDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.custDGV.Location = new System.Drawing.Point(589, 209);
+            this.custDGV.Location = new System.Drawing.Point(608, 185);
             this.custDGV.Name = "custDGV";
             this.custDGV.RowHeadersVisible = false;
             this.custDGV.RowHeadersWidth = 51;
@@ -265,7 +265,7 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(40)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(636, 134);
+            this.label3.Location = new System.Drawing.Point(680, 120);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(350, 54);
             this.label3.TabIndex = 58;

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="kursach.LOGIN" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACAAABAAAACACAACAAEYAAAAAGAAAAAAAAA=</HashCode>
+      <FileName>LOGIN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Form1" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAYACAAAACAAABAAAACAAAACAAgAIAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Customers" Collapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACEAABAAAACAAAACAEE8AAAoAHAIAQwAEgA=</HashCode>
+      <FileName>Customers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.CarTests" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAIAAQAAAAAAAAgAEAA=</HashCode>
+      <FileName>CarTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Sales" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAIAAIQAACAMABAAAADAAAACgEG8AAAAAFAKAYmEAwA=</HashCode>
+      <FileName>Sales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Users1" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAQABCAAABAACACACAACBEE4AAAAAHAIAQoAAAA=</HashCode>
+      <FileName>Users1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.vuecars" Collapsed="true">
+    <Position X="2" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/4AAMpACATAACRgAAAiAQASOAQQCAAACQAokAIFAIBA=</HashCode>
+      <FileName>vuecars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.MainForm" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAAABAAAACAAAACAIA7AAAAAHAPAQAAAAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Program" Collapsed="true">
+    <Position X="2" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="kursach.Car" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAwAASAAABAAAACAEAAiAME5CAAAAHgOAQgRAAA=</HashCode>
+      <FileName>Car.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="kursach.carDataSet" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

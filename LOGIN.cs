@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.IO;
 namespace kursach
 {
     public partial class LOGIN : Form
@@ -16,8 +16,10 @@ namespace kursach
         public LOGIN()
         {
             InitializeComponent();
-        }
 
+        }
+     
+        
         private void button2_Click(object sender, EventArgs e)
         {
             log.Text = "";
@@ -44,5 +46,7 @@ namespace kursach
             }
             Con.Close();
         }
+
+        
     }
 }

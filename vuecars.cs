@@ -100,6 +100,7 @@ namespace kursach
             guna2PictureBox1car.Image = pictureBox15.Image;
          
             pictureBox8.Load("cars\\1\\2.png");
+            pictureBox7.Load("cars\\1\\1.png");
             pictureBox9.Load("cars\\1\\3.png");
             label30.Text = label21.Text;
         }
@@ -108,6 +109,7 @@ namespace kursach
         {
             guna2PictureBox1car.Image = pictureBox14.Image;
             pictureBox7.Load("cars\\2\\1.png");
+            pictureBox8.Load("cars\\2\\2.png");
             pictureBox9.Load("cars\\2\\3.png");
             label30.Text = label21.Text;
         }
@@ -116,6 +118,7 @@ namespace kursach
         {
             guna2PictureBox1car.Image = pictureBox13.Image;
             pictureBox7.Load("cars\\3\\1.png");
+            pictureBox8.Load("cars\\3\\2.png");
             pictureBox9.Load("cars\\3\\3.png");
             label30.Text = label21.Text;
 
@@ -124,7 +127,8 @@ namespace kursach
         private void pictureBox12_Click(object sender, EventArgs e)
         {
             guna2PictureBox1car.Image = pictureBox12.Image;
-            pictureBox7.Load("cars\\4\\1.png");
+            
+            pictureBox8.Load("cars\\4\\2.png");
             pictureBox9.Load("cars\\4\\3.png");
             label30.Text = label21.Text;
         }
@@ -133,6 +137,7 @@ namespace kursach
         {
             guna2PictureBox1car.Image = pictureBox11.Image;
             pictureBox7.Load("cars\\5\\1.png");
+            pictureBox8.Load("cars\\5\\2.png");
             pictureBox9.Load("cars\\5\\3.png");
             label30.Text = label21.Text;
         }
@@ -141,6 +146,7 @@ namespace kursach
         {
             guna2PictureBox1car.Image = pictureBox10.Image;
             pictureBox7.Load("cars\\6\\1.png");
+            pictureBox8.Load("cars\\6\\2.png");
             pictureBox9.Load("cars\\6\\3.png");
             label30.Text = label21.Text;
         }

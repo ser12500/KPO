@@ -8,14 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using log4net;
+using log4net.Config;
 
 namespace kursach
 {
     public partial class Users1 : Form
     {
+        private static readonly ILog log = LogManager.GetLogger(typeof(Users1));
         public Users1()
         {
             InitializeComponent();
+            XmlConfigurator.Configure(new System.IO.FileInfo("log4net.config"));
+
         }
         SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\kerge\OneDrive\Документы\car.mdf;Integrated Security=True;Connect Timeout=30");
         private void label2_Click(object sender, EventArgs e)
@@ -37,7 +42,7 @@ namespace kursach
         {
             if (Id.Text == "" || Uname.Text == "" || Upass.Text == "")
             {
-
+                log.Error("Не заполнены все обязательные поля.");
                 MessageBox.Show("Недостающая информация");
             }
             else
@@ -51,14 +56,15 @@ namespace kursach
                     MessageBox.Show("User успешно добавлен");
                     Con.Close();
                     populate();
-
                 }
-                catch (Exception Myex)
+                catch (Exception ex)
                 {
-                    MessageBox.Show(Myex.Message);
+                    log.Error($"Ошибка при добавлении пользователя: {ex.Message}");
+                    MessageBox.Show(ex.Message);
                 }
             }
-        }
+        
+    }
 
         private void Users1_Load(object sender, EventArgs e)
         {

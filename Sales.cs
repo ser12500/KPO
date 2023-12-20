@@ -80,20 +80,20 @@ namespace kursach
         private void update()
         {
             Con.Open();
-            string query = "update Car set Available='" + "No" + "', where RegNum =" + Carreg.SelectedValue.ToString() + ";";
+            string query = "update Car set Available='" + "Нет в наличие" + "', where RegNum =" + Carreg.SelectedValue.ToString() + ";";
             SqlCommand cmd = new SqlCommand(query, Con);
             cmd.ExecuteNonQuery();
-            //MessageBox.Show("Car успешно обновлен");
+            MessageBox.Show("Car успешно обновлен");
             Con.Close();
 
         }
         private void updateDEL()
         {
             Con.Open();
-            string query = "update Car set Available='" + "Yes" + "', where RegNum =" + Carreg.SelectedValue.ToString() + ";";
+            string query = "update Car set Available='" + "В наличие" + "', where RegNum =" + Carreg.SelectedValue.ToString() + ";";
             SqlCommand cmd = new SqlCommand(query, Con);
             cmd.ExecuteNonQuery();
-            //MessageBox.Show("Car успешно обновлен");
+            MessageBox.Show("Car успешно обновлен");
             Con.Close();
 
 

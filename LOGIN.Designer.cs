@@ -42,10 +42,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(61)))), ((int)(((byte)(51)))), ((int)(((byte)(44)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(61)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
             this.label1.Font = new System.Drawing.Font("OpenSymbol", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(179, -2);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(175, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(392, 61);
             this.label1.TabIndex = 1;
@@ -56,21 +56,21 @@
             this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(207, 377);
+            this.button1.Location = new System.Drawing.Point(203, 390);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(164, 53);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Войти";
+            this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(61)))), ((int)(((byte)(51)))), ((int)(((byte)(44)))));
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(61)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(201, 225);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(197, 236);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 32);
             this.label2.TabIndex = 3;
@@ -79,10 +79,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(61)))), ((int)(((byte)(51)))), ((int)(((byte)(44)))));
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(61)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(201, 295);
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Location = new System.Drawing.Point(197, 306);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(146, 32);
             this.label3.TabIndex = 4;
@@ -93,7 +93,7 @@
             this.log.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.log.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.log.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.log.Location = new System.Drawing.Point(353, 219);
+            this.log.Location = new System.Drawing.Point(355, 230);
             this.log.Name = "log";
             this.log.Size = new System.Drawing.Size(163, 38);
             this.log.TabIndex = 6;
@@ -102,7 +102,7 @@
             // 
             this.par.BackColor = System.Drawing.SystemColors.HighlightText;
             this.par.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.par.Location = new System.Drawing.Point(353, 289);
+            this.par.Location = new System.Drawing.Point(353, 306);
             this.par.Name = "par";
             this.par.Size = new System.Drawing.Size(165, 38);
             this.par.TabIndex = 7;
@@ -110,10 +110,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(61)))), ((int)(((byte)(51)))), ((int)(((byte)(44)))));
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(61)))), ((int)(((byte)(51)))), ((int)(((byte)(45)))));
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(305, 92);
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label5.Location = new System.Drawing.Point(301, 103);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(142, 54);
             this.label5.TabIndex = 8;
@@ -124,11 +124,11 @@
             this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(386, 377);
+            this.button2.Location = new System.Drawing.Point(403, 390);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(164, 53);
             this.button2.TabIndex = 9;
-            this.button2.Text = "Очистить";
+            this.button2.Text = "Clear";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
